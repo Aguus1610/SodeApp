@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gestion-bebidas"
+version = "1.0"
+description = "Aplicación de Gestión de Bebidas"
+authors = ["Tu Nombre <tu@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+kivy = "2.2.1"
+kivymd = "1.1.1"
+peewee = "3.16.0"
+pillow = "10.0.0"
+pandas = "2.0.0"
+numpy = "1.24.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
